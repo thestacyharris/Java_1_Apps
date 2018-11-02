@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>45</x>
+      <y>351</y>
+      <w>315</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>Student
+--
+-classStatus:  String
+--
++Student()
++setClassStatus(String:  classStatus):  void
++getClassStatus():  String
++toString():  String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>207</x>
+      <y>657</y>
+      <w>315</w>
+      <h>162</h>
+    </coordinates>
+    <panel_attributes>Faculty
+--
+-officeHours:  string
+-rank:  string
+--
++Faculty()
++setOfficeHours(String:  officeHours):  void
++setRank(String:  rank):  void
++getOfficeHours():  String
++getRank():  String
++toString():  String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>279</x>
+      <y>9</y>
+      <w>315</w>
+      <h>261</h>
+    </coordinates>
+    <panel_attributes>Person
+--
+-name:  String
+-address:  String
+-phoneNum:  String
+-email:  String
+--
++Person()
++setName(String:  name):  void
++setAddress(String:  address):  void
++setPhoneNumber(String:  phoneNum):  void
++setEmail(String:  email):  void
++getName():  String
++getAddress():  String
++getPhoneNumber():  String
++getEmail():  String
++toString():  String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>648</x>
+      <y>657</y>
+      <w>252</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>Staff
+--
+-title:  string
+--
++Staff()
++setTitle(String:  title):  void
++getTitle():  String
++toString():  String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>477</x>
+      <y>351</y>
+      <w>315</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>Employee
+--
+-officeNum:  string
+-salary:  double
+-dateHire:  string
+--
++Employee()
++setOfficeNum(String:  officeNum):  void
++setSalary(String:  salary):  void
++setDateHire(String:  dateHire):  void
++getOfficeNum():  String
++getSalary():  String
++getDateHire():  String
++toString():  String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>261</y>
+      <w>144</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;140.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>216</x>
+      <y>261</y>
+      <w>126</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>612</x>
+      <y>567</y>
+      <w>171</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>441</x>
+      <y>567</y>
+      <w>144</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>333</x>
+      <y>261</y>
+      <w>207</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>Square
+--
+-side:  double
+--
++Square()
++setSide(double:  side):  void
++getSide(): double
++getArea():  double
++getPerimeter():  double
++howToColor():  double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>279</x>
+      <y>9</y>
+      <w>315</w>
+      <h>189</h>
+    </coordinates>
+    <panel_attributes>GeometricObject
+--
+-color:  String
+-filled:  boolean
+-creationDate:  String
+--
++GeometricObject()
++setColor(String:  color):  void
++setfilled(boolean:  filled):  void
++setcreationDate(String:  creationDate):  void
++getColor():  String
++getFilled():  boolean
++getCreationDate():  String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>324</x>
+      <y>468</y>
+      <w>162</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+Colorable
+--
++howToColor():  String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>414</x>
+      <y>387</y>
+      <w>27</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>189</y>
+      <w>36</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;20.0;80.0</additional_attributes>
+  </element>
+</diagram>
